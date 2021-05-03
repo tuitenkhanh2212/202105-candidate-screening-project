@@ -34,7 +34,7 @@ const ToDoForm = ({ addTask }) => {
                 placeholderText="Select Your Date" required
             /><br /><br />
             Time : <TimePicker selected={selectedTime} value={selectedTime} onChange={time => setSelectedTime(time)}
-                format='HH:mm' required
+                format='HH:mm'
             /><br /><br />
             <button id="submitButton" style={{ color: 'white', backgroundColor: 'green', fontWeight: 'bold', padding: '10px' }}>Submit</button>
         </form>
