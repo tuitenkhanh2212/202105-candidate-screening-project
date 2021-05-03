@@ -1,0 +1,415 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link changes the class when hovered 1`] = `
+<div
+  className="App"
+>
+  <header>
+    <h1>
+      To Do List
+    </h1>
+  </header>
+  <div
+    className="Title"
+  >
+    <div>
+      <div
+        className="todo"
+        data-testid="newTask"
+        id={1}
+        name="todo"
+        value={1}
+      >
+        learn Japanese Language
+         - Deadline 
+        7/5/2021
+         - 
+        08:00
+         
+        <button
+          id={1}
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "green",
+              "color": "white",
+              "fontWeight": "bold",
+              "margin": "20px",
+              "padding": "10px",
+            }
+          }
+        >
+           
+          Complete
+           
+        </button>
+      </div>
+      <div
+        className="todo"
+        data-testid="newTask"
+        id={2}
+        name="todo"
+        value={2}
+      >
+        Go Shopping
+         - Deadline 
+        9/5/2021
+         - 
+        19:00
+         
+        <button
+          id={2}
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "green",
+              "color": "white",
+              "fontWeight": "bold",
+              "margin": "20px",
+              "padding": "10px",
+            }
+          }
+        >
+           
+          Complete
+           
+        </button>
+      </div>
+      <div
+        className="todo"
+        data-testid="newTask"
+        id={3}
+        name="todo"
+        value={3}
+      >
+        Read book
+         - Deadline 
+        9/5/2021
+         - 
+        09:00
+         
+        <button
+          id={3}
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "green",
+              "color": "white",
+              "fontWeight": "bold",
+              "margin": "20px",
+              "padding": "10px",
+            }
+          }
+        >
+           
+          Complete
+           
+        </button>
+      </div>
+      <div
+        className="todo strike"
+        data-testid="newTask"
+        id={4}
+        name="todo"
+        value={4}
+      >
+        Buy New Screen
+         - Deadline 
+        10/4/2021
+         - 
+        21:00
+         
+        <button
+          id={4}
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "red",
+              "color": "white",
+              "fontWeight": "bold",
+              "margin": "20px",
+              "padding": "10px",
+            }
+          }
+        >
+           
+          Cancel
+           
+        </button>
+      </div>
+      <div
+        className="todo strike"
+        data-testid="newTask"
+        id={5}
+        name="todo"
+        value={5}
+      >
+        Tour With Friend
+         - Deadline 
+        26/4/2021
+         - 
+        11:00
+         
+        <button
+          id={5}
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "red",
+              "color": "white",
+              "fontWeight": "bold",
+              "margin": "20px",
+              "padding": "10px",
+            }
+          }
+        >
+           
+          Cancel
+           
+        </button>
+      </div>
+      <hr />
+      If you done your task, click task and click button 
+      <button
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "green",
+            "color": "white",
+            "fontWeight": "bold",
+            "margin": "20px",
+            "padding": "10px",
+          }
+        }
+      >
+        Clear Completed
+      </button>
+    </div>
+    <form
+      onSubmit={[Function]}
+      style={
+        Object {
+          "marginLeft": "40px",
+        }
+      }
+    >
+      Task : 
+      <input
+        id="inputTask"
+        onChange={[Function]}
+        placeholder="Enter task..."
+        required={true}
+        type="text"
+        value=""
+      />
+       Example : Dinner 
+      <br />
+      <br />
+      Date : 
+      <div
+        className="react-datepicker-wrapper"
+      >
+        <div
+          className="react-datepicker__input-container"
+        >
+          <input
+            className=""
+            disabled={false}
+            id="inputDate"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Select Your Date"
+            readOnly={false}
+            required={true}
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+       Ex: 22/12/2000 
+      <br />
+      <br />
+      Time : 
+      <div
+        className="react-time-picker react-time-picker--closed react-time-picker--enabled"
+        onFocus={[Function]}
+      >
+        <div
+          className="react-time-picker__wrapper"
+        >
+          <div
+            className="react-time-picker__inputGroup"
+            onClick={[Function]}
+          >
+            <input
+              max={null}
+              min={null}
+              name="time"
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={true}
+              step={60}
+              style={
+                Object {
+                  "position": "absolute",
+                  "visibility": "hidden",
+                  "zIndex": "-999",
+                }
+              }
+              type="time"
+              value=""
+            />
+            
+            <input
+              autoComplete="off"
+              className="react-time-picker__inputGroup__input react-time-picker__inputGroup__hour"
+              data-input="true"
+              inputMode="numeric"
+              max={12}
+              min={1}
+              name="hour12"
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyPress={[Function]}
+              onKeyUp={[Function]}
+              placeholder="--"
+              required={true}
+              type="number"
+              value=""
+            />
+            <span
+              className="react-time-picker__inputGroup__divider"
+            >
+              :
+            </span>
+            <input
+              autoComplete="off"
+              autoFocus={false}
+              className="react-time-picker__inputGroup__input react-time-picker__inputGroup__minute"
+              data-input="true"
+              inputMode="numeric"
+              max={59}
+              min={0}
+              name="minute"
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyPress={[Function]}
+              onKeyUp={[Function]}
+              placeholder="--"
+              required={true}
+              type="number"
+              value=""
+            />
+            <span
+              className="react-time-picker__inputGroup__divider"
+            >
+               
+            </span>
+            <select
+              className="react-time-picker__inputGroup__input react-time-picker__inputGroup__amPm"
+              name="amPm"
+              onChange={[Function]}
+              required={true}
+              value=""
+            >
+              <option
+                value=""
+              >
+                --
+              </option>
+              <option
+                value="am"
+              >
+                AM
+              </option>
+              <option
+                value="pm"
+              >
+                PM
+              </option>
+            </select>
+            
+          </div>
+          <button
+            className="react-time-picker__clear-button react-time-picker__button"
+            onClick={[Function]}
+            onFocus={[Function]}
+            type="button"
+          >
+            <svg
+              className="react-time-picker__clear-button__icon react-time-picker__button__icon"
+              height={19}
+              stroke="black"
+              strokeWidth={2}
+              viewBox="0 0 19 19"
+              width={19}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <line
+                x1="4"
+                x2="15"
+                y1="4"
+                y2="15"
+              />
+              <line
+                x1="15"
+                x2="4"
+                y1="4"
+                y2="15"
+              />
+            </svg>
+          </button>
+          <button
+            className="react-time-picker__clock-button react-time-picker__button"
+            onClick={[Function]}
+            onFocus={[Function]}
+            type="button"
+          >
+            <svg
+              className="react-time-picker__clock-button__icon react-time-picker__button__icon"
+              fill="none"
+              height={19}
+              stroke="black"
+              strokeWidth={2}
+              viewBox="0 0 19 19"
+              width={19}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="9.5"
+                cy="9.5"
+                r="7.5"
+              />
+              <path
+                d="M9.5 4.5 v5 h4"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+       Example: 17:30 PM
+      <br />
+      <br />
+      <button
+        id="submitButton"
+        style={
+          Object {
+            "backgroundColor": "green",
+            "color": "white",
+            "fontWeight": "bold",
+            "margin": "20px",
+            "padding": "10px",
+          }
+        }
+      >
+        Submit
+      </button>
+    </form>
+  </div>
+</div>
+`;

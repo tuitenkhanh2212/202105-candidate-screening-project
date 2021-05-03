@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
-import './App.css';
-//mock data
 import data from "./data.json";
-//components
 import Header from "./Header";
 import ToDoList from "./ToDoList";
 import ToDoForm from './ToDoForm';
+import './App.css';
 
 
 function App() {

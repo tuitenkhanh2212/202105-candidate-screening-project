@@ -13,15 +13,6 @@ code {
 }
 
 
-.task{
-  color: blue;
-}
-.deadline{
-  color: red;
-}
-.todo {
-  cursor: pointer;
-}
 .strike {
   text-decoration: line-through;
 }

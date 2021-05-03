@@ -25,17 +25,17 @@ const ToDoForm = ({ addTask }) => {
 
     return (
         <form onSubmit={handleSubmit} style={{ marginLeft: '40px' }}>
-            Task : <input value={userInput} type="text" onChange={handleChange} placeholder="Enter task..." required
-            /> Ex : Dinner <br /><br />
-            Date : <DatePicker selected={selectedDate} onChange={date => setSelectedDate(date)}
+            Task : <input id="inputTask" value={userInput} type="text" onChange={handleChange} placeholder="Enter task..." required
+            /><br /><br />
+            Date : <DatePicker id="inputDate" selected={selectedDate} onChange={date => setSelectedDate(date)}
                 dateFormat='dd/MM/yyyy' minDate={new Date()}
                 showYearDropdown scrollableMonthYearDropdown
                 placeholderText="Select Your Date" required
-            /> Ex: 22/12/2000 <br /><br />
+            /><br /><br />
             Time : <TimePicker selected={selectedTime} value={selectedTime} onChange={time => setSelectedTime(time)}
-                required
-            /> Ex: 17:30 PM<br /><br />
-            <button>Submit</button>
+                format='HH:mm' required
+            /><br /><br />
+            <button id="submitButton" style={{ color: 'white', backgroundColor: 'green', fontWeight: 'bold', padding: '10px' }}>Submit</button>
         </form>
 
     );
