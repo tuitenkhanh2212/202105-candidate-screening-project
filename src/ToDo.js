@@ -18,19 +18,19 @@ const ToDo = ({ todo, handleToggle }) => {
         return text;
     }
     function changeButtonColor(status) {
-        var text;
+        var color;
         if (status) {
-            text = "red";
+            color = "red";
         }
         else {
-            text = "green";
+            color = "green";
         }
-        return text;
+        return color;
     }
     var colorOfButton = changeButtonColor(todo.complete);
 
     return (
-        <div data-testid="newTask" id={todo.id} name="todo" value={todo.id} className={todo.complete ? "todo strike" : "todo"}>
+        <div data-testid="newTask" id={todo.id} key={todo.id + todo.task} name="todo" value={todo.id} className={todo.complete ? "todo strike" : "todo"}>
 
             <table>
                 <tbody>
