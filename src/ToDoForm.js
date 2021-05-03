@@ -25,7 +25,8 @@ const ToDoForm = ({ addTask }) => {
 
     return (
         <form onSubmit={handleSubmit} style={{ marginLeft: '40px' }}>
-            Task : <input id="inputTask" value={userInput} type="text" onChange={handleChange} placeholder="Enter task..." required
+            Task : <input id="inputTask" value={userInput} type="text" onChange={handleChange} placeholder="Enter task..."
+                required
             /><br /><br />
             Date : <DatePicker id="inputDate" selected={selectedDate} onChange={date => setSelectedDate(date)}
                 dateFormat='dd/MM/yyyy' minDate={new Date()}

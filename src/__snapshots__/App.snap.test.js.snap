@@ -15,162 +15,243 @@ exports[`Link changes the class when hovered 1`] = `
     <div>
       <div
         className="todo"
-        data-testid="newTask"
         id={1}
         name="todo"
+        newtask-id="newTask"
         value={1}
       >
-        learn Japanese Language
-         - Deadline 
-        7/5/2021
-         - 
-        08:00
-         
-        <button
-          id={1}
-          onClick={[Function]}
-          style={
-            Object {
-              "backgroundColor": "green",
-              "color": "white",
-              "fontWeight": "bold",
-              "margin": "20px",
-              "padding": "10px",
-            }
-          }
-        >
-           
-          Complete
-           
-        </button>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                Learn Japanese Language
+              </td>
+              <td
+                style={
+                  Object {
+                    "color": "red",
+                  }
+                }
+              >
+                Deadline 
+                7/5/2021
+                 - 
+                08:00
+              </td>
+              <td>
+                <button
+                  complete-id="complete"
+                  id={1}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "green",
+                      "color": "white",
+                      "fontWeight": "bold",
+                      "margin": "10px",
+                      "padding": "10px",
+                    }
+                  }
+                >
+                  Complete
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
       <div
         className="todo"
-        data-testid="newTask"
         id={2}
         name="todo"
+        newtask-id="newTask"
         value={2}
       >
-        Go Shopping
-         - Deadline 
-        9/5/2021
-         - 
-        19:00
-         
-        <button
-          id={2}
-          onClick={[Function]}
-          style={
-            Object {
-              "backgroundColor": "green",
-              "color": "white",
-              "fontWeight": "bold",
-              "margin": "20px",
-              "padding": "10px",
-            }
-          }
-        >
-           
-          Complete
-           
-        </button>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                Go Shopping
+              </td>
+              <td
+                style={
+                  Object {
+                    "color": "red",
+                  }
+                }
+              >
+                Deadline 
+                9/5/2021
+                 - 
+                19:00
+              </td>
+              <td>
+                <button
+                  complete-id="complete"
+                  id={2}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "green",
+                      "color": "white",
+                      "fontWeight": "bold",
+                      "margin": "10px",
+                      "padding": "10px",
+                    }
+                  }
+                >
+                  Complete
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
       <div
         className="todo"
-        data-testid="newTask"
         id={3}
         name="todo"
+        newtask-id="newTask"
         value={3}
       >
-        Read book
-         - Deadline 
-        9/5/2021
-         - 
-        09:00
-         
-        <button
-          id={3}
-          onClick={[Function]}
-          style={
-            Object {
-              "backgroundColor": "green",
-              "color": "white",
-              "fontWeight": "bold",
-              "margin": "20px",
-              "padding": "10px",
-            }
-          }
-        >
-           
-          Complete
-           
-        </button>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                Read book
+              </td>
+              <td
+                style={
+                  Object {
+                    "color": "red",
+                  }
+                }
+              >
+                Deadline 
+                9/5/2021
+                 - 
+                09:00
+              </td>
+              <td>
+                <button
+                  complete-id="complete"
+                  id={3}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "green",
+                      "color": "white",
+                      "fontWeight": "bold",
+                      "margin": "10px",
+                      "padding": "10px",
+                    }
+                  }
+                >
+                  Complete
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
       <div
         className="todo strike"
-        data-testid="newTask"
         id={4}
         name="todo"
+        newtask-id="newTask"
         value={4}
       >
-        Buy New Screen
-         - Deadline 
-        10/4/2021
-         - 
-        21:00
-         
-        <button
-          id={4}
-          onClick={[Function]}
-          style={
-            Object {
-              "backgroundColor": "red",
-              "color": "white",
-              "fontWeight": "bold",
-              "margin": "20px",
-              "padding": "10px",
-            }
-          }
-        >
-           
-          Cancel
-           
-        </button>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                Buy New Screen
+              </td>
+              <td
+                style={
+                  Object {
+                    "color": "red",
+                  }
+                }
+              >
+                Deadline 
+                10/4/2021
+                 - 
+                21:00
+              </td>
+              <td>
+                <button
+                  complete-id="complete"
+                  id={4}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "red",
+                      "color": "white",
+                      "fontWeight": "bold",
+                      "margin": "10px",
+                      "padding": "10px",
+                    }
+                  }
+                >
+                  Cancel
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
       <div
         className="todo strike"
-        data-testid="newTask"
         id={5}
         name="todo"
+        newtask-id="newTask"
         value={5}
       >
-        Tour With Friend
-         - Deadline 
-        26/4/2021
-         - 
-        11:00
-         
-        <button
-          id={5}
-          onClick={[Function]}
-          style={
-            Object {
-              "backgroundColor": "red",
-              "color": "white",
-              "fontWeight": "bold",
-              "margin": "20px",
-              "padding": "10px",
-            }
-          }
-        >
-           
-          Cancel
-           
-        </button>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                Tour With Friend
+              </td>
+              <td
+                style={
+                  Object {
+                    "color": "red",
+                  }
+                }
+              >
+                Deadline 
+                26/4/2021
+                 - 
+                11:00
+              </td>
+              <td>
+                <button
+                  complete-id="complete"
+                  id={5}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "red",
+                      "color": "white",
+                      "fontWeight": "bold",
+                      "margin": "10px",
+                      "padding": "10px",
+                    }
+                  }
+                >
+                  Cancel
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
       <hr />
-      If you done your task, click task and click button 
+      If you done your task, click Complete and click Clear Completed
       <button
+        id="clearButton"
         onClick={[Function]}
         style={
           Object {
@@ -202,7 +283,6 @@ exports[`Link changes the class when hovered 1`] = `
         type="text"
         value=""
       />
-       Example : Dinner 
       <br />
       <br />
       Date : 
@@ -229,7 +309,6 @@ exports[`Link changes the class when hovered 1`] = `
           />
         </div>
       </div>
-       Ex: 22/12/2000 
       <br />
       <br />
       Time : 
@@ -268,9 +347,9 @@ exports[`Link changes the class when hovered 1`] = `
               className="react-time-picker__inputGroup__input react-time-picker__inputGroup__hour"
               data-input="true"
               inputMode="numeric"
-              max={12}
-              min={1}
-              name="hour12"
+              max={23}
+              min={0}
+              name="hour24"
               onChange={[Function]}
               onFocus={[Function]}
               onKeyDown={[Function]}
@@ -305,34 +384,6 @@ exports[`Link changes the class when hovered 1`] = `
               type="number"
               value=""
             />
-            <span
-              className="react-time-picker__inputGroup__divider"
-            >
-               
-            </span>
-            <select
-              className="react-time-picker__inputGroup__input react-time-picker__inputGroup__amPm"
-              name="amPm"
-              onChange={[Function]}
-              required={true}
-              value=""
-            >
-              <option
-                value=""
-              >
-                --
-              </option>
-              <option
-                value="am"
-              >
-                AM
-              </option>
-              <option
-                value="pm"
-              >
-                PM
-              </option>
-            </select>
             
           </div>
           <button
@@ -392,7 +443,6 @@ exports[`Link changes the class when hovered 1`] = `
           </button>
         </div>
       </div>
-       Example: 17:30 PM
       <br />
       <br />
       <button
@@ -402,7 +452,6 @@ exports[`Link changes the class when hovered 1`] = `
             "backgroundColor": "green",
             "color": "white",
             "fontWeight": "bold",
-            "margin": "20px",
             "padding": "10px",
           }
         }
