@@ -23,8 +23,7 @@ test("should be able to add new task", async (t) => {
         .click(TIME_INPUT)
         .typeText(TIME_INPUT, "0630");
     await t.click(ADD_NEW_TASK_BUTTON);
-    await t.expect(NEW_TASK.withText("Making Money").exists).ok(); 3
-    3
+    await t.expect(NEW_TASK.withText("Making Money").exists).ok();
 });
 test("should be able to delete completed task", async (t) => {
     await t.setTestSpeed(0.3)
