@@ -4,7 +4,7 @@ const TASK_INPUT = Selector("#inputTask");
 const DATE_INPUT = Selector("#inputDate");
 const TIME_INPUT = Selector(".react-time-picker__inputGroup");
 const ADD_NEW_TASK_BUTTON = Selector("#submitButton");
-const NEW_TASK = Selector(`[data-testid="newTask"]`);
+const NEW_TASK = Selector(`[newTask-id="newTask"]`);
 const COMPLETE_BUTTON = Selector(`[complete-id="complete"]`);
 const CLEAR_BUTTON = Selector("#clearButton")
 
@@ -23,8 +23,8 @@ test("should be able to add new task", async (t) => {
         .click(TIME_INPUT)
         .typeText(TIME_INPUT, "0630");
     await t.click(ADD_NEW_TASK_BUTTON);
-    await t.expect(NEW_TASK.withText("Making Money").exists).ok();
-
+    await t.expect(NEW_TASK.withText("Making Money").exists).ok(); 3
+    3
 });
 test("should be able to delete completed task", async (t) => {
     await t.setTestSpeed(0.3)
