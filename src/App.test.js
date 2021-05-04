@@ -4,7 +4,7 @@ const TASK_INPUT = Selector("#inputTask");
 const DATE_INPUT = Selector("#inputDate");
 const TIME_INPUT = Selector(".react-time-picker__inputGroup");
 const ADD_NEW_TASK_BUTTON = Selector("#submitButton");
-const NEW_TASK = Selector(`[newtask-id="newTask"]`);
+const NEW_TASK = Selector(`[task-id="Task"]`);
 
 const COMPLETE_BUTTON = Selector(`[complete-id="complete"]`);
 const CLEAR_BUTTON = Selector("#clearButton")
@@ -32,3 +32,13 @@ test("should be able to delete completed task", async (t) => {
         .click(CLEAR_BUTTON);
     await t.expect(NEW_TASK.withText("Learn Japanese Language").exists).notOk();
 });
+test("should be able to change button color", async (t) => {
+    await t.click(COMPLETE_BUTTON);
+    await t.expect(COMPLETE_BUTTON.getStyleProperty('background-color')).eql('rgb(255, 0, 0)');
+    await t.click(COMPLETE_BUTTON);
+    await t.expect(COMPLETE_BUTTON.getStyleProperty('background-color')).eql('rgb(0, 128, 0)');
+});
+test("test line through for completed task", async t => {
+    await t.click(COMPLETE_BUTTON);
+    await t.expect(NEW_TASK.getStyleProperty('text-decoration')).eql('line-through solid rgb(0, 0, 0)');
+})

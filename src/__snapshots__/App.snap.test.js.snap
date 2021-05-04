@@ -17,7 +17,7 @@ exports[`Link changes the class when hovered 1`] = `
         className="todo"
         id={1}
         name="todo"
-        newtask-id="newTask"
+        task-id="Task"
         value={1}
       >
         <table>
@@ -64,7 +64,7 @@ exports[`Link changes the class when hovered 1`] = `
         className="todo"
         id={2}
         name="todo"
-        newtask-id="newTask"
+        task-id="Task"
         value={2}
       >
         <table>
@@ -111,7 +111,7 @@ exports[`Link changes the class when hovered 1`] = `
         className="todo"
         id={3}
         name="todo"
-        newtask-id="newTask"
+        task-id="Task"
         value={3}
       >
         <table>
@@ -158,7 +158,7 @@ exports[`Link changes the class when hovered 1`] = `
         className="todo strike"
         id={4}
         name="todo"
-        newtask-id="newTask"
+        task-id="Task"
         value={4}
       >
         <table>
@@ -205,7 +205,7 @@ exports[`Link changes the class when hovered 1`] = `
         className="todo strike"
         id={5}
         name="todo"
-        newtask-id="newTask"
+        task-id="Task"
         value={5}
       >
         <table>
@@ -329,7 +329,6 @@ exports[`Link changes the class when hovered 1`] = `
               name="time"
               onChange={[Function]}
               onFocus={[Function]}
-              required={true}
               step={60}
               style={
                 Object {
@@ -356,7 +355,7 @@ exports[`Link changes the class when hovered 1`] = `
               onKeyPress={[Function]}
               onKeyUp={[Function]}
               placeholder="--"
-              required={true}
+              required={null}
               type="number"
               value=""
             />
@@ -380,7 +379,7 @@ exports[`Link changes the class when hovered 1`] = `
               onKeyPress={[Function]}
               onKeyUp={[Function]}
               placeholder="--"
-              required={true}
+              required={null}
               type="number"
               value=""
             />

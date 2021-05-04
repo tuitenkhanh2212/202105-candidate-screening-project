@@ -30,7 +30,7 @@ const ToDo = ({ todo, handleToggle }) => {
     var colorOfButton = changeButtonColor(todo.complete);
 
     return (
-        <div newtask-id="newTask" id={todo.id} key={todo.id + todo.task} name="todo" value={todo.id} className={todo.complete ? "todo strike" : "todo"}>
+        <div task-id="Task" id={todo.id} key={todo.id + todo.task} name="todo" value={todo.id} className={todo.complete ? "todo strike" : "todo"}>
 
             <table>
                 <tbody>
